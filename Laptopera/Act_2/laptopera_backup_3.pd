@@ -1,0 +1,162 @@
+#N canvas 420 107 795 653 10;
+#X declare -lib gridflow;
+#X declare -path /home/hellocatfood/pd-externals/hellocatfood;
+#X obj 123 27 bng 30 250 50 0 empty empty empty 17 7 0 10 -4034 -1
+-1;
+#X obj 163 47 bng 15 250 50 0 empty empty empty 17 7 0 10 -258113 -1
+-1;
+#X obj 163 27 bng 15 250 50 0 empty empty empty 17 7 0 10 -4032 -1
+-1;
+#N canvas 67 89 450 300 window 0;
+#X obj 30 109 gemwin;
+#X msg 200 39 0 \, destroy;
+#X msg 30 39 create \, 1;
+#X msg 110 39 dimen 800 600;
+#X obj 30 19 inlet;
+#X obj 110 19 inlet;
+#X obj 200 19 inlet;
+#X msg 123 100 offset 1366 0;
+#X connect 1 0 0 0;
+#X connect 2 0 0 0;
+#X connect 3 0 0 0;
+#X connect 4 0 2 0;
+#X connect 5 0 7 0;
+#X connect 5 0 3 0;
+#X connect 6 0 1 0;
+#X connect 7 0 0 0;
+#X restore 123 66 pd window;
+#X text 183 25 press this first;
+#X text 183 45 destroy window;
+#X text 120 5 create window;
+#X obj 19 110 import gridflow;
+#X obj 23 135 path /home/hellocatfood/pd-externals/hellocatfood;
+#X obj 33 180 gemhead;
+#X floatatom 72 399 5 0 100 1 size - -;
+#X floatatom 137 184 5 0 0 0 - - -;
+#X floatatom 96 179 4 0 0 0 - - -;
+#X obj 33 201 rotateXYZ;
+#X obj 33 420 text3d;
+#X msg 43 264 font /home/hellocatfood/Desktop/Laptopera/Computerfont.ttf
+;
+#N canvas 133 154 450 300 act2b 0;
+#X msg 350 139 Save 80% with our online pharmacy;
+#X msg 370 179 Try Vagira and Cialis Today;
+#X msg 390 219 MaxGentleman Enlargement Pills;
+#X obj 601 259 inlet;
+#X obj 270 9 inlet;
+#X obj 350 119 inlet;
+#X obj 370 159 inlet;
+#X obj 390 199 inlet;
+#X obj 20 289 outlet;
+#X obj 110 199 drunk;
+#X obj 20 -61 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X msg 123 179 3;
+#X msg 153 179 2;
+#X msg 20 239 text Cialis;
+#X msg 100 239 text Sold;
+#X msg 170 239 text Here;
+#X obj 20 219 sel 0 1 2;
+#X obj 20 -41 metro 200;
+#X obj 113 -61 hsl 60 15 500 10 0 0 empty empty empty -2 -8 0 10 -260097
+-1 -1 0 1;
+#X obj 71 -61 int;
+#X obj 123 159 loadbang;
+#X obj 20 -1 shunt;
+#X obj 20 199 counter;
+#X msg 39 179 0;
+#X msg 70 179 2;
+#X obj 39 159 loadbang;
+#X msg 29 78 0;
+#X msg 29 97 1;
+#X msg 29 117 2;
+#X obj 155 56 tgl 15 0 empty empty empty 17 7 0 10 -258113 -1 -1 0
+1;
+#X obj 155 76 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 155 96 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 72 38 sel 1;
+#X msg 72 58 0;
+#X obj 72 78 sel 1;
+#X msg 72 98 0;
+#X obj 72 118 sel 1;
+#X msg 72 138 0;
+#X text 174 53 up;
+#X text 174 73 down;
+#X text 174 93 up/down;
+#X obj 99 -18 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X connect 5 0 0 0;
+#X connect 6 0 1 0;
+#X connect 7 0 2 0;
+#X connect 9 0 16 0;
+#X connect 10 0 17 0;
+#X connect 11 0 9 1;
+#X connect 12 0 9 2;
+#X connect 13 0 8 0;
+#X connect 14 0 8 0;
+#X connect 15 0 8 0;
+#X connect 16 0 13 0;
+#X connect 16 1 14 0;
+#X connect 16 2 15 0;
+#X connect 17 0 21 0;
+#X connect 18 0 19 0;
+#X connect 19 0 17 1;
+#X connect 20 0 11 0;
+#X connect 20 0 12 0;
+#X connect 21 0 22 0;
+#X connect 21 1 9 0;
+#X connect 22 0 16 0;
+#X connect 23 0 22 2;
+#X connect 24 0 22 4;
+#X connect 25 0 23 0;
+#X connect 25 0 24 0;
+#X connect 26 0 22 1;
+#X connect 27 0 22 1;
+#X connect 28 0 22 1;
+#X connect 29 0 32 0;
+#X connect 30 0 34 0;
+#X connect 31 0 36 0;
+#X connect 32 0 33 0;
+#X connect 32 0 26 0;
+#X connect 33 0 30 0;
+#X connect 33 0 31 0;
+#X connect 34 0 35 0;
+#X connect 35 0 27 0;
+#X connect 35 0 29 0;
+#X connect 35 0 31 0;
+#X connect 36 0 37 0;
+#X connect 37 0 28 0;
+#X connect 37 0 29 0;
+#X connect 37 0 30 0;
+#X connect 41 0 21 1;
+#X restore 80 600 pd act2b;
+#X obj 80 575 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 100 575 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 120 575 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 140 575 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 190 462 vsl 15 128 100 1500 0 0 empty empty empty 0 -9 0 10
+-262144 -1 -1 0 1;
+#X floatatom 125 310 5 0 0 0 - - -;
+#X obj 45 240 loadbang;
+#X connect 0 0 3 0;
+#X connect 1 0 3 2;
+#X connect 2 0 3 1;
+#X connect 9 0 13 0;
+#X connect 10 0 14 1;
+#X connect 11 0 13 3;
+#X connect 12 0 13 1;
+#X connect 13 0 14 0;
+#X connect 15 0 14 0;
+#X connect 16 0 14 0;
+#X connect 17 0 16 0;
+#X connect 18 0 16 1;
+#X connect 19 0 16 2;
+#X connect 20 0 16 3;
+#X connect 21 0 16 4;
+#X connect 23 0 15 0;
